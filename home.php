@@ -41,6 +41,7 @@
             </div>
         </div>
     </Section>
+    <!-- Lấy ngẫu nhiên sản phẩm -->
     <Section class="new-items">
         <div class="container-md">
             <div class="section-title d-flex justify-content-between align-items-center mb-4 mt-4">
