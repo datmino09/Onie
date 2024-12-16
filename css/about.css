@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+.head-about{
+    padding: 20px 0;
+}
+.head-about h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--primary-color);
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.head-about p{
+    text-align: center;
+    color: #333;
+}
+
+.content-text{
+    display: flex;
+    padding: 50px 0;
+    margin: 10px 0;
+}
+
+.content-text p{
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.content-text p a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.content-text p a:hover{
+    text-decoration: underline;
+}
+
+.about-text-img{
+    border-top-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    padding: 0;
+    box-shadow: 2px 2px 8px rgb(0 0 0 / 30%);
+    overflow: hidden;
+}
+
+.about-text-img img{
+    width: 100%;
+}
+
+.developers{
+    margin: 70px 0;
+    padding: 50px 0;
+    letter-spacing: 1px;
+    border: 2px solid var(--primary-color);
+
+}
+
+.developers-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+
+.developers-img{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 6px solid var(--primary-color);
+    box-shadow: 2px 2px 8px rgb(0 0 0 / 30%);
+}
+
+.developers-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.developers-text{
+    padding: 40px 50px;
+}
+
+.developers-text strong{
+    color: var(--primary-color);
+}

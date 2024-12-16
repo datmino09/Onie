@@ -1,0 +1,421 @@
+*{
+  padding: 0;margin: 0;box-sizing: border-box;
+}
+
+:root {
+  --white-color: #fff;
+  --primary-color: #f78ac3;
+  --body-font: "Nunito", sans-serif;
+}
+
+html {
+                font-size: 100%;
+                height: 100%;
+                margin-bottom: 1px; 
+}
+
+body {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #212529;
+                background-color: #f8f9fa;
+                }
+
+               
+
+
+h1, h2, h3, h4, h5, h6 {
+                font-family: Helvetica, Arial, sans-serif;
+                color: #222;
+                font-weight: bold;
+                }
+				
+h4            { font-size: 16px; padding: 0 0 5px 0; }
+
+
+.clear {
+                clear: both;
+                }
+
+.button {
+				font-family: Verdana, Arial, sans-serif;
+                display: inline-block;
+                background: #459300  top left repeat-x !important;
+                border: 1px solid #459300 !important;
+                padding: 4px 7px 4px 7px !important;
+                color: #fff !important;
+                font-size: 11px !important;
+                cursor: pointer;
+}
+                
+.button:hover {
+                text-decoration: underline;
+                }
+                
+.button:active {
+                padding: 5px 7px 3px 7px !important;
+}
+
+
+
+#main-content ol {
+                padding: 0 0 0 24px;
+                }
+
+#main-content ol li {
+                list-style: decimal;
+                padding: 4px 0;
+                }
+
+.shortcut-button {
+                border: 1px solid #ccc;
+                background: #f7f7f7 url('../images/shortcut-button-bg.gif') top left no-repeat;
+                display: block;
+                width: 120px;
+                margin: 0 0 20px 0;
+                }
+
+.shortcut-button span {
+                border: 1px solid #fff;
+                display:block;
+                padding: 15px 10px 15px 10px;
+                text-align: center;
+                color: #555;
+                font-size: 13px;
+                line-height: 1.3em;
+                }
+
+.shortcut-button span img {
+                margin-bottom: 10px;
+                }
+
+.shortcut-button:hover {
+                background: #fff;
+				
+                }
+				
+.shortcut-button span:hover {
+				color: #57a000; 
+                }
+
+ul.shortcut-buttons-set li {
+                float: left;
+                margin: 0 15px 0 0;
+				padding: 0 !important;
+				background: 0;
+                }
+
+/*************** Forms ***************/
+
+
+				
+form input.text-input,
+form select,
+form textarea,
+form .wysiwyg {
+                padding: 6px;
+                font-size: 13px;
+                background: #fff url('../images/bg-form-field.gif') top left repeat-x;
+                border: 1px solid #d5d5d5;
+				color: #333;
+                }
+            
+form .small-input {
+                width: 25% !important;
+                }
+                
+form .medium-input {
+                width: 50% !important;
+                }
+                
+form .large-input {
+                width: 97.5% !important;
+				font-size: 16px !important;
+				padding: 8px !important;
+                }
+                
+form textarea {
+                width: 97.5% !important;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                
+form select {
+                padding: 4px;
+                background: #fff;
+                }
+				
+form input[type="checkbox"],
+form input[type="radio"] {
+				padding: 0;
+                background: none;
+				border: 0;
+                }
+
+/*************** Notifications ***************/
+
+.notification {
+                position: relative;
+                margin: 10px 0 30px 0;
+                padding: 0;
+                background-position: 10px 11px !important;
+                background-repeat: no-repeat !important;
+                font-size: 13px;
+                width: 99.8%;
+                }
+                
+
+/********************************      Login Page      ********************************/
+
+body#login {
+                color: #fff;
+				}
+				
+#login-wrapper {
+                background-color: #fff;
+                height: 100vh;
+				}
+
+#login-wrapper #login-top {
+				width: 100%;
+				padding: 80px 0 50px 0;
+				text-align: center;
+}
+
+#login-wrapper #login-top img {
+  height: 70px;
+  margin: 0 auto;
+  padding: 0;
+}
+				
+#login-wrapper #login-content {
+				text-align: left;
+				width: 300px;
+				margin: 0 auto;
+        width: fit-content;
+        padding: 30px;
+        border: 1px solid var(--white-color);
+        border-radius: 10px;
+        background-color: var(--primary-color);
+        position: relative;
+}
+
+.title-login{
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  border-bottom: 1px solid var(--white-color);
+}
+
+#login-wrapper #login-content label {
+				color: #fff;
+				font-size: 16px;
+        font-weight: 600;
+				font-family: Helvetica, Arial, sans-serif;
+				float: left;
+				width: 70px;
+				padding: 0;
+        margin-right: 30px;
+				}
+				
+#login-wrapper #login-content input {
+				width: 200px;
+				float: right;
+				margin: 0 0 20px 0;
+				border: 0;
+				background: #fff;
+				}
+				
+#login-wrapper #login-content p {
+				padding: 0;
+				}
+				
+#login-wrapper #login-content p#remember-password {
+				float: right;
+				}
+				
+#login-wrapper #login-content p#remember-password input {
+				float: none;
+				width: auto;
+				border: 0;
+				background: none;
+				margin: 0 10px 0 0;
+				}
+				
+#login-wrapper #login-content p .button {
+				width: auto;
+				margin-top: 10px;
+        height: 28px;
+}
+
+
+.nav-link.active {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: bold;
+}    
+
+
+/* Sidebar Styles */
+.bg-dark {
+  width: 250px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+.bg-dark h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #495057;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+/* Sidebar Styles */
+.bg-dark .nav-link {
+  display: block;
+  padding: 0.8rem 1rem;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 1rem;
+}
+
+.toggle-sidebar{
+  display: none;
+  
+}
+
+.bg-dark .nav-link:hover {
+  background-color: #495057; 
+  color: #e9ecef; 
+  font-weight: normal;
+}
+
+.bg-dark .nav-link.active {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 2px;
+  border-left: 3px solid #ffffff; 
+}
+
+.content {
+  margin-left: 250px;
+  background-color: #ffffff;
+  min-height: 100vh;
+  width: calc(100% - 250px);
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn_detail{
+  background-color: var(--primary-color);
+  border: none;
+  color: #fff;
+}
+.btn_detail:hover {
+  background-color: #ea499c;
+  color: #f1f1f1;;
+}
+
+.page-link{
+  color: var(--primary-color);
+}
+
+.page-link:hover{
+  color: #e43b92;
+}
+
+.btn-primary,.active>.page-link{
+  background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #e43b92;
+  color: #f1f1f1;
+  ;
+}
+
+.btn_delete:hover {
+  text-decoration: underline;
+  text-decoration-color: #333;
+  opacity: 0.9;
+}
+
+.content-body {
+  padding: 10px 20px;
+}
+@media (max-width: 768px) {
+  .bg-dark {
+      width: 200px; 
+  }
+
+  .col-md-10 {
+      margin-left: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .bg-dark {
+      position: absolute; 
+      transform: translateX(-100%);
+      z-index: 999;
+      transition: transform 0.3s ease-in-out;
+  }
+
+  .bg-dark.active {
+      transform: translateX(0);
+  }
+
+  .col-md-10 {
+      margin-left: 0;
+  }
+
+  .toggle-sidebar {
+      display: inline-block;
+      background-color: #0d6efd;
+      color: white;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+      z-index: 1000;
+  }
+}
+
+.card-header{
+  background-color: var(--primary-color);
+  border-bottom: 1px solid var(--white-color);
+}
+
+.card-header>*{
+  color: var(--white-color);
+}
+
+.text-pry{
+  
+  color: var(--primary-color);
+
+}
+
+.btn-secondary {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.btn-secondary:hover{
+  background-color: #e43b92;
+  color: #f1f1f1;
+}
